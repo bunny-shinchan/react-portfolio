@@ -1,26 +1,22 @@
-import React from 'react';
 import './Navbar.css';
+import logo from '../../assets/navbar-logo.png'
 
-const Navbar = ({ activeLink }) => {
+const Navbar = () => {
   return (
     <nav className="navbar">
-      <ul>
-        <li className={activeLink === 'hero' ? 'active' : ''}>
-          <a href="#hero">Home</a>
-        </li>
-        <li className={activeLink === 'about' ? 'active' : ''}>
+      <div className="navbar-container">
+       <a href="#hero" className="navbar-logo">
+          <img src={logo} alt="Sudhanshu logo" />
+        </a>
+
+        <div className="navbar-links">
           <a href="#about">About</a>
-        </li>
-        <li className={activeLink === 'skills' ? 'active' : ''}>
           <a href="#skills">Skills</a>
-        </li>
-        <li className={activeLink === 'projects' ? 'active' : ''}>
+          <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
-        </li>
-        <li className={activeLink === 'contact' ? 'active' : ''}>
           <a href="#contact">Contact</a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </nav>
   );
 };
