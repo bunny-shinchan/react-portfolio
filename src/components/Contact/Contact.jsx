@@ -16,15 +16,21 @@ const Contact = () => {
 
   const inputRef = useRef(null);
   const textareaRef = useRef(null);
+  const hasMountedRef = useRef(false);
 
   useEffect(() => {
+    if (!hasMountedRef.current) {
+      hasMountedRef.current = true;
+      return;
+    }
+
     if (step === 3 && textareaRef.current) {
-      textareaRef.current.focus();
+      textareaRef.current.focus({ preventScroll: true });
       return;
     }
 
     if (inputRef.current) {
-      inputRef.current.focus();
+      inputRef.current.focus({ preventScroll: true });
     }
   }, [step]);
 
@@ -204,7 +210,8 @@ const Contact = () => {
               >
                 <p className="contact-success-title">Message Sent ✓</p>
                 <p className="contact-success-text">
-                  Thanks {name},<br />
+                  Thanks {name},
+                  <br />
                   I&apos;ll get back to you soon.
                 </p>
               </motion.div>

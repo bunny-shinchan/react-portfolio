@@ -2,6 +2,7 @@ import './Hero.css';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { motion } from 'framer-motion';
+import profileImage from '../../assets/profile.jpg';
 
 const textContainerVariants = {
   hidden: {},
@@ -69,11 +70,10 @@ const Hero = () => {
           </motion.p>
 
           <motion.p className="hero-description" variants={fadeUpVariants}>
-            I design and build automation systems that streamline
-            complex workflows and transform unstructured data
-            into structured insights. My work focuses on web
-            scraping, intelligent data extraction, and building
-            scalable tools that simplify repetitive processes.
+            I design and build automation systems that streamline complex
+            workflows and transform unstructured data into structured insights.
+            My work focuses on web scraping, intelligent data extraction, and
+            building scalable tools that simplify repetitive processes.
           </motion.p>
 
           <motion.div className="hero-socials" variants={fadeUpVariants}>
@@ -112,7 +112,11 @@ const Hero = () => {
             </motion.a>
           </motion.div>
 
-          <motion.a href="#about" className="hero-scroll" variants={fadeUpVariants}>
+          <motion.a
+            href="#about"
+            className="hero-scroll"
+            variants={fadeUpVariants}
+          >
             <motion.span
               className="hero-scroll-arrow"
               animate={{ y: [0, 8, 0] }}
@@ -132,7 +136,7 @@ const Hero = () => {
         >
           <div className="hero-image-wrapper">
             <img
-              src="/profile.jpg"
+              src={profileImage}
               alt="Sudhanshu profile"
               className="hero-image"
             />
