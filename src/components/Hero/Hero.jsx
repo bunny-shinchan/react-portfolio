@@ -2,7 +2,7 @@ import './Hero.css';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { motion } from 'framer-motion';
-import profileImage from '../../assets/profile.jpg';
+import profileImage from '../../assets/profile.png';
 
 const textContainerVariants = {
   hidden: {},
@@ -61,34 +61,19 @@ const Hero = () => {
             Sudhanshu
           </motion.h1>
 
-          <motion.p className="hero-title" variants={fadeUpVariants}>
-            Software Development Engineer
-          </motion.p>
-
           <motion.p className="hero-tags" variants={fadeUpVariants}>
-            SDE Intern @ Astraea | Python • JavaScript • Automation
+            SDE Intern @ Astraea | Python • SQL • Web Scraping • Data Analysis
           </motion.p>
 
           <motion.p className="hero-description" variants={fadeUpVariants}>
-            I design and build automation systems that streamline complex
-            workflows and transform unstructured data into structured insights.
-            My work focuses on web scraping, intelligent data extraction, and
-            building scalable tools that simplify repetitive processes.
+            I build Python tools that automate data collection and processing
+            workflows. My work focuses on web scraping, data extraction, and
+            building pipelines that transform unstructured information into
+            structured datasets for analysis and insights.
           </motion.p>
 
           <motion.div className="hero-socials" variants={fadeUpVariants}>
-            <motion.a
-              href="https://github.com/bunny-shinchan"
-              target="_blank"
-              rel="noreferrer"
-              className="hero-social-link"
-              aria-label="GitHub"
-              whileHover={{ scale: 1.2 }}
-              transition={{ duration: 0.2, ease: 'easeOut' }}
-            >
-              <FaGithub />
-            </motion.a>
-
+            
             <motion.a
               href="https://www.linkedin.com/in/vermsudh/"
               target="_blank"
@@ -102,6 +87,18 @@ const Hero = () => {
             </motion.a>
 
             <motion.a
+              href="https://github.com/bunny-shinchan"
+              target="_blank"
+              rel="noreferrer"
+              className="hero-social-link"
+              aria-label="GitHub"
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.2, ease: 'easeOut' }}
+            >
+              <FaGithub />
+            </motion.a>
+
+            <motion.a
               href="mailto:vermsudh@gmail.com"
               className="hero-social-link"
               aria-label="Email"
@@ -112,20 +109,6 @@ const Hero = () => {
             </motion.a>
           </motion.div>
 
-          <motion.a
-            href="#about"
-            className="hero-scroll"
-            variants={fadeUpVariants}
-          >
-            <motion.span
-              className="hero-scroll-arrow"
-              animate={{ y: [0, 8, 0] }}
-              transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}
-            >
-              ↓
-            </motion.span>
-            <span>Scroll</span>
-          </motion.a>
         </motion.div>
 
         <motion.div
