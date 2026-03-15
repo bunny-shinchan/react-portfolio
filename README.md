@@ -37,7 +37,9 @@
 
 # Preview
 
-![1773575603288](image/README/1773575603288.png)
+
+<img src="./src/assets/ReadMe.png" width="100%" />
+
 
 ---
 
