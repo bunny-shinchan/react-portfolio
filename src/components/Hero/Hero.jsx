@@ -87,7 +87,7 @@ const Hero = () => {
             </motion.a>
 
             <motion.a
-              href="https://github.com/bunny-shinchan"
+              href="https://github.com/vermsudh"
               target="_blank"
               rel="noreferrer"
               className="hero-social-link"

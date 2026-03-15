@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import './Contact.css';
+import emailjs from '@emailjs/browser';
 
 const stepVariants = {
   initial: { opacity: 0, y: 20 },
@@ -54,8 +55,25 @@ const Contact = () => {
 
     if (!name.trim() || !email.trim() || !message.trim()) return;
 
-    setStep(4);
-  };
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      message: message
+    };
+
+    emailjs.send(
+      import.meta.env.VITE_EMAIL_SERVICE_ID,
+      import.meta.env.VITE_EMAIL_TEMPLATE_ID,
+      templateParams,
+      import.meta.env.VITE_EMAIL_PUBLIC_KEY
+    )
+    .then(() => {
+      setStep(4);
+    })
+    .catch((error) => {
+      console.error("Email failed:", error);
+    });
+};
 
   return (
     <section className="contact-section" id="contact">
