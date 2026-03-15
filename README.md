@@ -223,13 +223,13 @@ Potential enhancements:
 **Sid**
 
 GitHub
-[https://github.com/YOUR_GITHUB_USERNAME](https://github.com/YOUR_GITHUB_USERNAME)
+[https://github.com/vermsudh]()
 
 LinkedIn
-(Add your LinkedIn profile)
+[https://www.linkedin.com/in/vermsudh/]()
 
 Portfolio
-[https://sid-portfolio-murex.vercel.app](https://sid-portfolio-murex.vercel.app/)
+[https://devsid-portfolio.vercel.app]()
 
 ---
 
