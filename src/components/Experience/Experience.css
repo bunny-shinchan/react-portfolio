@@ -41,13 +41,15 @@
 }
 
 .experience-title {
-  grid-column: 2;
-  margin: 0;
-  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
   font-weight: 800;
   line-height: 1.05;
   color: #1a1a1a;
+  margin-bottom: 12px;
+  text-align: left;
 }
+
+
 
 .experience-timeline {
   position: relative;
@@ -142,6 +144,16 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+
+  filter: grayscale(100%) sepia(20%) brightness(1.1) saturate(0.2);
+  opacity: 0.85;
+  transition: filter 0.35s ease, transform 0.35s ease;
+}
+
+.experience-dot:hover .experience-logo {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.05);
 }
 
 .experience-logo-fallback {
@@ -255,6 +267,7 @@
   .experience-dot {
     width: 38px;
     height: 38px;
+    cursor: pointer;
   }
 
   .experience-card {

@@ -51,7 +51,7 @@ const Projects = () => {
       <div className="projects-container">
         <div className="projects-header">
           <h2 className="projects-title">Selected Projects</h2>
-          <p className="projects-subtitle">Automation tools and AI systems</p>
+          <p className="projects-subtitle">Automation systems, data workflows, and developer tools</p>
         </div>
 
         <div className="projects-grid">

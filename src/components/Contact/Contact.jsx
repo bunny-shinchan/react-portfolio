@@ -15,7 +15,7 @@ const Contact = () => {
   const [message, setMessage] = useState('');
 
   const inputRef = useRef(null);
-  const textareaRef = useRef(null);
+  const textareaRef = useRef(null); 
   const hasMountedRef = useRef(false);
 
   useEffect(() => {
@@ -165,16 +165,16 @@ const Contact = () => {
                 transition={{ duration: 0.4 }}
                 onSubmit={handleSubmit}
               >
-                <p className="contact-question">How can I help?</p>
+                <p className="contact-question">What would you like to discuss?</p>
 
                 <div className="contact-line contact-line--stacked">
-                  <span className="contact-prefix">I&apos;m looking to...</span>
+                  <span className="contact-prefix">I would like to...</span>
                   <textarea
                     ref={textareaRef}
                     value={message}
                     onChange={(event) => setMessage(event.target.value)}
                     className="contact-textarea"
-                    placeholder="Tell me a little about your project, role, or idea."
+                    placeholder="Please share a few details about your project, role, or inquiry."
                     rows="5"
                   />
                 </div>

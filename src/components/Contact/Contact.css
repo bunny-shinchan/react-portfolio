@@ -1,6 +1,6 @@
 .contact-section {
   background: #f5f2ec;
-  padding: 100px 32px;
+  padding: 80px 32px;
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
 }
@@ -12,9 +12,9 @@
 }
 
 .contact-card {
-  max-width: 860px;
+  max-width: 640px;
   margin: 0 auto;
-  padding: 48px;
+  padding: 36px;
   background: #ffffff;
   border: 1px solid #e6e2da;
   border-radius: 24px;
@@ -62,7 +62,7 @@
 }
 
 .contact-step {
-  min-height: 260px;
+  min-height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -125,7 +125,7 @@
   min-width: 260px;
   padding: 0 0 10px;
   border-bottom: 2px solid #1a1a1a;
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
   font-weight: 600;
 }
 

@@ -7,8 +7,11 @@ import {
   FaCss3Alt,
   FaJs,
   FaReact,
+  FaSpider,
+  FaMicrosoft,
 } from 'react-icons/fa';
 import { SiMysql, SiGit } from 'react-icons/si';
+import { TbApi } from "react-icons/tb";
 
 const skills = [
   { name: 'Python', icon: FaPython, color: '#3776AB' },
@@ -19,7 +22,9 @@ const skills = [
   { name: 'CSS', icon: FaCss3Alt, color: '#1572B6' },
   { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
   { name: 'React', icon: FaReact, color: '#61DAFB' },
-  { name: 'Microsoft Admin Center', icon: null, shortLabel: 'MS', color: '#5E5E5E' },
+  { name: 'REST APIs', icon: TbApi, color: '#6366f1' },
+  { name: 'Web Scraping', icon: FaSpider, color: '#6b7280' },
+  { name: 'Microsoft Admin Center', icon: FaMicrosoft, color: '#5E5E5E' },
 ];
 
 const duplicatedSkills = [...skills, ...skills];
@@ -49,13 +54,7 @@ const Skills = () => {
                   className="skill-card"
                   style={{ '--brand-color': skill.color }}
                 >
-                  {Icon ? (
-                    <Icon className="skill-icon" />
-                  ) : (
-                    <span className="skill-icon skill-icon--text">
-                      {skill.shortLabel}
-                    </span>
-                  )}
+                  {Icon && <Icon className="skill-icon" />}
 
                   <span className="skill-name">{skill.name}</span>
                 </div>

@@ -18,18 +18,7 @@ const Footer = () => {
 
         <div className="footer-links">
           <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-            className="footer-icon-link"
-            style={{ '--brand-color': '#181717' }}
-          >
-            <FaGithub />
-          </a>
-
-          <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/vermsudh/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -40,7 +29,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:vermsudh@gmail.com"
             aria-label="Email"
             className="footer-icon-link"
             style={{ '--brand-color': '#EA4335' }}
@@ -49,7 +38,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://instagram.com/yourusername"
+            href="https://www.instagram.com/sudhanshu.verma/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
