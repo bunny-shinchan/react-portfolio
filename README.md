@@ -1,4 +1,3 @@
-
 # Sid – Developer Portfolio
 
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
@@ -20,7 +19,6 @@
 
 # Table of Contents
 
-
 * [Preview](https://chatgpt.com/g/g-p-69b109c28b3481919d96fe2ac0a5ff88-building-portfolio/c/69b69c6a-0f14-8320-88b2-205c0978a625#preview)
 * [Animated Demo](https://chatgpt.com/g/g-p-69b109c28b3481919d96fe2ac0a5ff88-building-portfolio/c/69b69c6a-0f14-8320-88b2-205c0978a625#animated-demo)
 * [Features](https://chatgpt.com/g/g-p-69b109c28b3481919d96fe2ac0a5ff88-building-portfolio/c/69b69c6a-0f14-8320-88b2-205c0978a625#features)
@@ -31,15 +29,8 @@
 * [Deployment](https://chatgpt.com/g/g-p-69b109c28b3481919d96fe2ac0a5ff88-building-portfolio/c/69b69c6a-0f14-8320-88b2-205c0978a625#deployment)
 * [Customization](https://chatgpt.com/g/g-p-69b109c28b3481919d96fe2ac0a5ff88-building-portfolio/c/69b69c6a-0f14-8320-88b2-205c0978a625#customization)
 * [Future Improvements](https://chatgpt.com/g/g-p-69b109c28b3481919d96fe2ac0a5ff88-building-portfolio/c/69b69c6a-0f14-8320-88b2-205c0978a625#future-improvements)
-* [Author](https://chatgpt.com/g/g-p-69b109c28b3481919d96fe2ac0a5ff88-building-portfolio/c/69b69c6a-0f14-8320-88b2-205c0978a625#author)
-
----
-
-# Preview
-
-
-<img src="./src/assets/ReadMe.png" width="100%" />
-
+* [Author
+  ](https://chatgpt.com/g/g-p-69b109c28b3481919d96fe2ac0a5ff88-building-portfolio/c/69b69c6a-0f14-8320-88b2-205c0978a625#author)
 
 ---
 
