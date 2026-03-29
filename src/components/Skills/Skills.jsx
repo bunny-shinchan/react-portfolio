@@ -24,7 +24,6 @@ const skills = [
   { name: 'React', icon: FaReact, color: '#61DAFB' },
   { name: 'REST APIs', icon: TbApi, color: '#6366f1' },
   { name: 'Web Scraping', icon: FaSpider, color: '#6b7280' },
-  { name: 'Microsoft Admin Center', icon: FaMicrosoft, color: '#5E5E5E' },
 ];
 
 const duplicatedSkills = [...skills, ...skills];
