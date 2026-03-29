@@ -12,10 +12,11 @@ const experiences = [
     logo: astraeaLogo,
     fallback: "A",
     points: [
-      "Developed browser automation scripts using Python and JavaScript",
-      "Building an intelligent agent for ITAT case law extraction",
-      "Contributing to backend services and database design",
-      "Using Git/GitHub for collaborative development",
+      "Developed browser automation scripts using Python and JavaScript, reducing manual effort and improving workflow efficiency",
+      "Built an automation pipeline for ITAT case law extraction using LLM APIs (Gemini) with secure API key handling and captcha solving",
+      "Designing an intelligent agent to extract, structure, and manage legal data with a focus on scalability and accuracy",
+      "Contributing to end-to-end system development including backend services, database design, and frontend interfaces",
+      "Collaborating using Git and GitHub for version control, issue tracking, and team-based development",
     ],
   },
   {
@@ -27,9 +28,8 @@ const experiences = [
     fallback: "L",
     points: [
       "Reduced major IT infrastructure incidents by 80%",
-      "Managed security incident triage and response",
       "Upgraded hardware across 1000+ systems",
-      "Maintained Windows and macOS environments",
+      "Maintained Windows and macOS environments and managed security incident triage and response",
     ],
   },
 ];
