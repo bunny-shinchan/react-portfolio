@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 const projects = [
   {
     id: 1,
-    title: 'Case Law Extraction AI Agent',
+    title: 'Case Law Extraction Agent',
     status: 'In Progress',
     description:
       'AI-powered system that extracts and structures ITAT case law data using intelligent agents and automated pipelines.',
@@ -14,20 +14,31 @@ const projects = [
       'Backend system for managing extracted data',
       'Focus on scalability and accuracy',
     ],
-    techStack: ['Python', 'AI Agents', 'Automation', 'Backend Systems'],
+    techStack: ['Python', 'Automation', 'Backend Systems'],
   },
   {
     id: 2,
-    title: 'LinkedIn Commenting Automation System',
+    title: 'CAPTCHA Solver for Legal Document Access',
     description:
-      'Automation framework that discovers LinkedIn posts and generates AI-assisted comments while maintaining safety and human review workflows.',
+      'Automated CAPTCHA detection and resolution system that intercepts document requests, solves image-based CAPTCHAs using OCR and rule-based logic, and seamlessly submits solutions within the request pipeline.',
     features: [
-      'Scrapes LinkedIn posts',
-      'Generates rule-constrained AI comments',
-      'Human-review output workflow',
-      'Secure environment-based credential management',
+      'Detects CAPTCHA images in request workflows',
+      'Solves CAPTCHAs using OCR and rule-based techniques',
+      'Automatically submits solutions to resume downloads',
+      'Intelligent retry logic and error handling',
     ],
-    techStack: ['Python', 'Playwright', 'Automation', 'AI APIs'],
+    techStack: ['Python', 'OCR', 'Automation', 'Web Scraping'],
+    // id: 2,
+    // title: 'LinkedIn Commenting Automation System',
+    // description:
+    //   'Automation framework that discovers LinkedIn posts and generates AI-assisted comments while maintaining safety and human review workflows.',
+    // features: [
+    //   'Scrapes LinkedIn posts',
+    //   'Generates rule-constrained AI comments',
+    //   'Human-review output workflow',
+    //   'Secure environment-based credential management',
+    // ],
+    // techStack: ['Python', 'Playwright', 'Automation'],
     
   },
   {
