@@ -20,18 +20,18 @@ const experiences = [
     ],
   },
   {
-    company: "Leon's Furniture",
-    role: "Desktop Administrator",
-    date: "Aug 2022 — Nov 2025",
-    location: "Toronto, Canada",
-    logo: leonsLogo,
-    fallback: "L",
-    points: [
-      "Reduced major IT infrastructure incidents by 80%",
-      "Upgraded hardware across 1000+ systems",
-      "Maintained Windows and macOS environments and managed security incident triage and response",
-    ],
-  },
+  company: "Leon's Furniture",
+  role: "Desktop Administrator",
+  date: "Aug 2022 — Nov 2025",
+  location: "Toronto, Canada",
+  logo: leonsLogo,
+  fallback: "L",
+  points: [
+    "Reduced major IT infrastructure incidents by 80% through proactive monitoring and efficient incident response, including data breach triage and documentation",
+    "Led hardware upgrades across 1000+ systems and ensured seamless pin pad functionality across 500+ retail stores via MCM server management",
+    "Resolved 90% of desktop and remote support issues across Windows and macOS environments, maintaining high system uptime and security compliance",
+  ],
+}
 ];
 
 const Experience = () => {
